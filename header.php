@@ -16,7 +16,7 @@
 
             <ul class="nav-links">
                     <li><a href="adpagina.php">Advertenties</a></li>
-                    <li><input type="search" class="searchbar" value="Zoeken..."></li>
+                    <li><input type="search" class="searchbar" onfocus="this.value=''" value="Zoeken..."></li>
                     <li><a href="#">Login/Register</a></li>
             </ul>
 

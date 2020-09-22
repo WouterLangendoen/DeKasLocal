@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="footer">
+        contact
     </div>
-
 </body>
 </html>
