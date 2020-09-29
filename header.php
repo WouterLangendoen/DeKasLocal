@@ -19,6 +19,9 @@
                     <li><input type="search" class="searchbar" onfocus="this.value=''" value="Zoeken..."></li>
                     <li><a href="#">Help Pagina</a></li>
                     <li><a href="loginpagina.php">Login/Register</a></li>
+                    <form action="logout.php" method="post">
+        <button type="submit" name="logout-submit">Logout</button>
+    </form>
             </ul>
 
             <div class="burger">
