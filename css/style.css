@@ -26,6 +26,7 @@ html {
 }
 
 body {
+    height: 100%;
     background: var(--clr-wit);
     color: var(--clr-groen);
     margin: 0;
@@ -180,7 +181,7 @@ nav {
 .container {
     background-color: var(--clr-wit);
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
     overflow: hidden;
 }
 

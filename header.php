@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Stekjeruilen</title>
 </head>
 <body>
         <nav>
@@ -17,7 +17,8 @@
             <ul class="nav-links">
                     <li><a href="adpagina.php">Advertenties</a></li>
                     <li><input type="search" class="searchbar" onfocus="this.value=''" value="Zoeken..."></li>
-                    <li><a href="#">Login/Register</a></li>
+                    <li><a href="#">Help Pagina</a></li>
+                    <li><a href="loginpagina.php">Login/Register</a></li>
             </ul>
 
             <div class="burger">
