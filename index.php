@@ -11,6 +11,8 @@ include('header.php');
 <body>
     <div class="container">
         <?php 
+
+        // Bericht zodat je kan zien of het werkt, later weghalen want is lelijk
             if (isset($_SESSION['userId'])) {
                 echo '<p>You are logged in !</p>';
             }
@@ -19,6 +21,8 @@ include('header.php');
             }
 
         ?>
+
+        <!-- Planten homepage -->
         <div class="plant">
             <img src="images/plant1.jpg" alt="">
         </div>

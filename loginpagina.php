@@ -5,6 +5,8 @@
 
 
     <div class="container"> 
+
+    <!-- Formulier om in te loggen -->
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="mailId" placeholder="E-mailadres...">
         <input type="password" name="wachtwoord" placeholder="Wachtwoord...">

@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* Paar standaard waardes die je later makkelijk weer opnieuw kunt gebruiken */
 :root {
     --clr-groen: #4A7C00;
     --clr-wit: #FFFFFF;

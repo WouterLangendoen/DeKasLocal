@@ -7,6 +7,7 @@ if (isset($_POST['login-submit'])) {
     $mailid = $_POST['mailId'];
     $password = $_POST['wachtwoord'];
 
+    // Error meldingen in header
     if (empty($mailid) || empty($password)) {
         header("Location: ../loginpagina.php?error=emptyfields");
         exit();

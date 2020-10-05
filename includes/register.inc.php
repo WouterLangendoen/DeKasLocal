@@ -11,7 +11,7 @@ if (isset($_POST['signup-submit'])) {
     $passwordrepeat = $_POST['pwdrepeat'];
 
 
-    // error berichten register pagina //
+    // error berichten in header
 
     if (empty($username) || empty($email) || empty($password) || empty($passwordrepeat)) {
         header("Location: ../register.php?error=emptyfields&uid=".$username."&mail=".$email);
