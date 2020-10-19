@@ -7,7 +7,7 @@
     <div class="container">
         <!-- welcome -->
         <div class="welcome-div">
-            <h1 class="nav-title">Stekjes ruilen</h1>
+            <h1 class="nav-title">Fleurt Op</h1>
             <a class="nav-title">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -19,10 +19,10 @@
         <?php 
             // Bericht zodat je kan zien of het werkt, later weghalen want is lelijk
                 if (isset($_SESSION['userId'])) {
-                    echo '<p>You are logged in !</p>';
+
                 }
                 else {
-                    echo '<p>You are logged out !</p>';
+
                 }
 
             ?>
