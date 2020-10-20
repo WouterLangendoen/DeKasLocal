@@ -7,7 +7,7 @@ html {
 /* Grey background of login form */
 .registerbox{
 	width: 350px;
-	height: 600px;
+	height: 100vh;
 	background-color: rgb(240, 240, 240);
 	box-sizing: border-box;
 	border-radius: 5px;

@@ -342,6 +342,19 @@ nav {
     color: var(--clr-wit);
 }
 
+/* Profielpagina */
+
+.profpagTabel {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.profpagTh {
+    text-align: center;
+    padding: 2em;
+}
+
 @media screen and (max-width: 768px){
     .nav-title {
         display: none;
