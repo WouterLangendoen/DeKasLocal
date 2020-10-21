@@ -19,7 +19,7 @@
         <?php 
             // Bericht zodat je kan zien of het werkt, later weghalen want is lelijk
                 if (isset($_SESSION['userId'])) {
-                    echo "<p>Hoi " . $_SESSION['userUid'] . "</p>" ;
+                    echo "<p>Hoi " . $_SESSION['userId'] . "</p>" ;
                 }
                 else {
 
