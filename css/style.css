@@ -411,6 +411,7 @@ nav {
 
 .footer {
     height: 100px;
+    margin-top: 70px;
     background-color: var(--clr-groen);
     color: var(--clr-wit);
 }
