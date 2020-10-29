@@ -47,7 +47,7 @@
         <p>Achternaam</p>
         <input type="text" name="lastName" placeholder="Achternaam" required>
         <br>
-        <p>Straatnaam</p>
+        <!-- <p>Straatnaam</p>
         <input type="text" name="straatName" placeholder="Straatnaam" required>
         <br>
         <p>Nummer</p>
@@ -58,7 +58,7 @@
         <br>
         <p>Postcode</p>
         <input type="text" name="postcode" placeholder="Postcode" required>
-        <br>
+        <br> -->
         <p>Wachtwoord</p>
         <input type="password" name="pwd" placeholder="Wachtwoord" required>
         <br>

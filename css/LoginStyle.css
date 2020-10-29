@@ -104,11 +104,11 @@ html {
 	font-weight: bold;
 }
 
-/* .footer {
+.footer {
     height: 100px;
    	background-color: var(--clr-groen);
  	color: var(--clr-wit);
 	position: fixed;
 	bottom: 0;
   	width: 100%;
-} */
+}
