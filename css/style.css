@@ -295,31 +295,15 @@ nav {
 }
 
 .welcome-div{
-    margin: 100px;
-    margin-bottom: -5%;
+    margin: 50px;
+    margin-bottom: 0px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.welcome-div h1{
+.welcome-div h1, .welcome-div h2, .welcome-div p{
     text-align: center;
     color: var(--clr-groen);
-    padding-bottom: 20px;
-}
-
-.welcome-div a{
-    text-align: center;
-}
-
-.welcome-div img{
-    width: 75px;
-    position: relative;
-    margin: 3% auto;
-    -webkit-transition: -webkit-transform 2s;
-}
-
-.welcome-div img:hover{
-    -webkit-transform: rotate(360deg);
 }
 
 .welcome-bg img{
@@ -375,7 +359,7 @@ nav {
 /* Recent advertisements header */
 .gallery h1{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -386,16 +370,14 @@ nav {
     text-align: center;
 }
 
-/* Advertisement description headers */
+/* Advertisement description headers and description details */
 .description h3{
     padding-left: 10%;  
     display: inline-block;
 }
 
-/* Advertisement discription */
-.description p{
-    padding-left: 5%;
-    display: inline-block;
+.description h3 span{
+    font-weight: normal;
 }
 
 /* Advertisement discription container*/
@@ -423,4 +405,11 @@ nav {
     .logo h2 {
         display: none;
     }
+}
+
+/* Changes the position of the advertisement description */
+
+@media screen and (max-width: 600px){
+    /* Advertisement discription */
+
 }
